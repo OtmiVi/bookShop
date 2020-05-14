@@ -1,0 +1,24 @@
+.content{
+	width: 1300px;
+	background: silver;
+	margin: auto;
+	display: flex;
+}
+.book{
+	border: 1px solid black;
+	border-radius: 15px;
+	padding: 15px;
+	width: 200px;
+	margin: 10px;
+
+}
+
+img{
+	max-width: 200px;
+	max-height: 200px;
+	min-height: 100px;
+	min-width: 100px;
+	border: 1px solid black;
+	border-radius: 5px;
+
+}

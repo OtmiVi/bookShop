@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<form action="database/add.php" method="POST" enctype="multipart/form-data">
+		<p>name</p>
+		<input type="text" name='name'>
+		<p>year</p>
+		<input type="text" name='year'>
+		<p>author</p>
+		<input type="text" name='author'>
+		<p>description</p>
+		<textarea name="description" cols="30" rows="10"></textarea>
+		<select name="selected">
+			<option disabled>Виберіть жанр книжки</option>
+			<option value="aaa">aaa</option>
+			<option value="aaaa">aaaa</option>
+			<option value="aaaa">aaaa</option>
+			<option value="aaa">aaa</option>
+			<option value="aaa">aaa</option>
+		</select>
+		<input type="file" name='img'>
+		<input type="submit">
+	</form>
+</body>
+</html>
