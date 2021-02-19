@@ -6,22 +6,19 @@
 </head>
 <body>
 	<form action="database/add.php" method="POST" enctype="multipart/form-data">
-		<p>name</p>
+		<p>Назва</p>
 		<input type="text" name='name'>
-		<p>year</p>
+		<p>Рік видання</p>
 		<input type="text" name='year'>
-		<p>author</p>
+		<p>Автор</p>
 		<input type="text" name='author'>
-		<p>description</p>
+		<p>Опис</p>
 		<textarea name="description" cols="30" rows="10"></textarea>
-		<select name="selected">
-			<option disabled>Виберіть жанр книжки</option>
-			<option value="aaa">aaa</option>
-			<option value="aaaa">aaaa</option>
-			<option value="aaaa">aaaa</option>
-			<option value="aaa">aaa</option>
-			<option value="aaa">aaa</option>
-		</select>
+		<p>Ціна</p>
+		<input type="text" name='prise'>
+		<p>Кількість</p>
+		<input type="text" name='count'>
+		<p>Обложка</p>
 		<input type="file" name='img'>
 		<input type="submit">
 	</form>
